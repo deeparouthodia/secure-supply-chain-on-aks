@@ -9,8 +9,8 @@ resources:
 - service-db.yaml
 images:
   - name: azure-voting-app-rust
-    newName: s3cexampleacr.azurecr.io/azure-voting-app-rust
-    newTag: v0.1-alpha-1
+    newName: fluxcd1.azurecr.io/azure-voting-app-rust
+    newTag: 0.0.1
   - name: postgres
-    newName: s3cexampleacr.azurecr.io/postgres
+    newName: fluxcd1.azurecr.io/postgres
     newTag: 15.0-alpine
