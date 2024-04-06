@@ -10,7 +10,7 @@ resources:
 images:
   - name: azure-voting-app-rust
     newName: fluxcd1.azurecr.io/azure-voting-app-rust # {"$imagepolicy": "flux-system:azure-voting:name"}
-    newTag: latest # {"$imagepolicy": "flux-system:azure-voting:tag"}
+    newTag: 0.0.1 # {"$imagepolicy": "flux-system:azure-voting:tag"}
   - name: postgres
     newName: fluxcd1.azurecr.io/postgres
     newTag: 15.0-alpine
