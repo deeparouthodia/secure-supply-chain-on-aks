@@ -10,7 +10,7 @@ resources:
 images:
   - name: azure-voting-app-rust
     newName: fluxcd1.azurecr.io/azure-voting-app-rust
-    newTag: 0.0.2
+    newTag: 0.0.1
   - name: postgres
     newName: fluxcd1.azurecr.io/postgres
     newTag: 15.0-alpine
